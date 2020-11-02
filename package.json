@@ -1,0 +1,31 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "app to create and devour burgers",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codymu45/burger.git"
+  },
+  "keywords": [
+    "orm",
+    "handlebars",
+    "express",
+    "node"
+  ],
+  "author": "Cody Mullen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codymu45/burger/issues"
+  },
+  "homepage": "https://github.com/codymu45/burger#readme"
+}
