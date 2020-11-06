@@ -1,1 +1,30 @@
-<!--Set up the body of html in here!!!
+<!--Set up the body of html in here!!!-->
+<header>
+  <img id="burgerPic" src="\assets\img\burger.png" alt="burger">
+</header>
+
+<div class="burgerLists">
+  <div class="uneatenBurgers">
+    <ul class="listedBurgers">
+      {{#each uneatenBurgers}}
+      <li>
+        {{this.burger_name}}
+        <button type="submit" class="eat" data-id="{{this.id}}">Devour</button>
+      </li>
+      {{/each}}
+    </ul>
+  </div>
+  <div class="eatenBurgers">
+    <ul class="listedBurgers">
+      {{#each eatenBurgers}}
+      <li>{{this.burger_name}}</li>
+      {{/each}}
+    </ul>
+  </div>
+</div>
+
+<div class="burgerInput">
+  <input type="text" class="typeBurger" placeholder="Enter a burger!">
+  <button type="submit" class="submitBurger">Submit</button>
+  <p id="instructions">Enter a burger you want to eat and click the submit button!</p>
+</div>

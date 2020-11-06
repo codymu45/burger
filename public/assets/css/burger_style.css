@@ -1,0 +1,49 @@
+body{
+  background-color: burlywood;
+}
+
+header{
+  background-color: burlywood;
+  height: 300px;
+  text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.burgerInput{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.typeBurger{
+  height: 40px;
+  width: 300px;
+  text-align: center;
+  align-self: center;
+  margin: 15px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.submitBurger{
+  width: 150px;
+  text-align: center;
+  align-self: center;
+  margin: 15px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: bold;
+}
+
+#instructions{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 20px;
+}
+
+#burgerLists{
+  display: flex;
+  flex-direction: row;
+}
+
+#burgerPic{
+  height: 300px;
+}
