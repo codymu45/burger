@@ -3,7 +3,7 @@ $(function() {
     var id = $(this).data("id");
 
     // Send the PUT request.
-    $.ajax("/api/burgers/" + id, {
+    $.ajax("https://mullenburger.herokuapp.com/api/burgers/" + id, {
       type: "PUT"
     }).then(
       function() {
@@ -24,7 +24,7 @@ $(function() {
     };
 
     // Send the POST request.
-    $.ajax("/api/burgers", {
+    $.ajax("https://mullenburger.herokuapp.com/api/burgers", {
       type: "POST",
       data: newBurger
     }).then(
