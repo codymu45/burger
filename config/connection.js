@@ -3,11 +3,16 @@ var mysql = require("mysql");
 // Setting up our connection information
 var source = {
   localhost: {
-    host: "mullenburger.herokuapp.com",
+    // host: "mullenburger.herokuapp.com",
+    // port: 3306,
+    // user: "root",
+    // password: "password",
+    // database: "burgers_DB"
+    host: "us-cdbr-east-02.cleardb.com",
     port: 3306,
-    user: "root",
-    password: "password",
-    database: "burgers_DB"
+    user: "b8976df18bd51f",
+    password: "c27e1428",
+    database: "heroku_48c252aa70bd948"
   }
 };
 
