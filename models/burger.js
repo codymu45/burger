@@ -20,15 +20,6 @@ var burger = {
   }
 };
 
-function eat(id){
-  var queryURL = `https://localhost:8080/api/burgers/${id}`; 
-  $.ajax({
-      url: queryURL,
-      method: 'PUT'
-  }).then(function(response){
-      console.log(response);
-  });
-}
 
 // Export the database functions for the controller (catsController.js).
 module.exports = burger;
