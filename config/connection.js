@@ -20,7 +20,7 @@ var source = {
 var connection;
 
 function handleDisconnect() {
-  connection = mysql.createConnection(source.localhost);
+  connection = mysql.createPool(source.localhost);
                                                 
   connection.connect(function(err) {              
     if(err) {                                   
