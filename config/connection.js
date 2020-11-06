@@ -18,6 +18,7 @@ var source = {
 
 // Creating our connection
 var connection;
+connection = mysql.createPool(source.localhost);
 
 function handleDisconnect() {
   connection = mysql.createPool(source.localhost);
@@ -39,7 +40,7 @@ function handleDisconnect() {
   });
 }
 
-handleDisconnect();
+// handleDisconnect();
 
 // // Connecting to the database.
 // connection.connect(function(err) {
