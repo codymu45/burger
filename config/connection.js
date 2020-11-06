@@ -3,7 +3,7 @@ var mysql = require("mysql");
 // Setting up our connection information
 var source = {
   localhost: {
-    host: "localhost",
+    host: "https://mullenburger.herokuapp.com",
     port: 3306,
     user: "root",
     password: "password",
